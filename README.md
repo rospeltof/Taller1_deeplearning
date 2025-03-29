@@ -7,7 +7,7 @@ En este contexto, el desarrollo de modelos predictivos robustos para anticipar l
 Por lo tanto, este estudio se enfoca en aprovechar los datos del sureste francés para desarrollar modelos capaces de predecir condiciones meteorológicas, con el objetivo de generar información estratégica que facilite una gestión más eficiente de recursos y actividades productivas en la región.
 
 
-Referencias por el momento 
+## Referencias por el momento 
 
 [1] Campus France, "Meteorología y clima en Francia," Campus France, 2024. [En línea]. Disponible: https://www.campusfrance.org/es/meteorologia-clima-Francia
 
