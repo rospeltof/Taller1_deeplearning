@@ -50,8 +50,10 @@ El mejor modelo fue una arquitectura de red LSTM con dos capas ocultas, entrenad
 
 **Pablo Gonzales**  
 Estudiante de Maestría en Matemáticas  
+
 Pontificia Universidad Javeriana
 
 **Sebastián Ospina**  
 Estudiante de Maestría en Matemáticas 
+
 Pontificia Universidad Javeriana
