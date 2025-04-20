@@ -1,4 +1,4 @@
-# Taller 1 - Deep Learning (Maestría)
+# Taller 1 - Deep Learning 
 
 Este repositorio contiene todo el código desarrollado para el **Taller 1 de la clase de Deep Learning** del programa de maestría. El objetivo del taller es construir un modelo de red neuronal recurrente (RNN) para predecir temperatura y precipitación a partir de datos meteorológicos reales proporcionados por el conjunto de datos MeteoNet (METEO FRANCE).
 
