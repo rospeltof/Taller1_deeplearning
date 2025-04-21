@@ -8,7 +8,8 @@ Este repositorio contiene todo el código desarrollado para el **Taller 1 de la 
  ├── code/ │
            ├── 1. Data_extraction.ipynb # Extracción de los datos desde la fuente original │
            ├── 2. EDA_and_Processing.ipynb # Análisis exploratorio y preprocesamiento (EDA, imputación, división) │
-           └── 3. Model_1.ipynb # Entrenamiento de modelos y experimentación │
+           ├── 3. Model_1.ipynb # Entrenamiento de modelos y experimentación│
+           └── 4. Punto 2 # │
 
 ├── data/ │
           ├── full_single_station_data.csv # Datos completos sin procesar de la estación meteorológica seleccionada │
@@ -37,6 +38,17 @@ Este repositorio contiene todo el código desarrollado para el **Taller 1 de la 
    Se construyen modelos secuenciales con capas LSTM para predecir las dos variables objetivo. También se exploran variantes como el uso de la pérdida Huber para mejorar la sensibilidad a eventos extremos.
 
 > 💡 Nota: los datos en `data/processed` están listos para ser escalados y organizados en forma secuencial, proceso que se realiza dentro del `Notebook 03`.
+
+4. **Clasificación con CNNs sobre Fashion-MNIST (`4. punto 2.ipynb`)**  
+   En este notebook se trabaja con el dataset Fashion-MNIST, una variante del MNIST tradicional, pero con imágenes de ropa en lugar de dígitos.  
+   Se implementan distintas arquitecturas:
+
+   - Red convolucional desde cero (sin transfer learning).
+   - Red convolucional utilizando una red "grande" preentrenada (como VGG o ResNet).
+   - Red convolucional utilizando **MobileNet V2** mediante transferencia de aprendizaje.
+   - Bono: revisión del desempeño de **EfficientNet**, modelo moderno optimizado para eficiencia computacional.
+
+   Cada modelo es entrenado, evaluado y comparado con métricas de clasificación y visualizaciones.
 
 ---
 
